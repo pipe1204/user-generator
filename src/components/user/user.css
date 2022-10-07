@@ -1,0 +1,49 @@
+.user__main__div {
+    width: 40%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 2rem 4rem;
+    padding: 2rem 4rem;
+    border-radius: 6px;
+    text-align: center;
+    /* border: 3px solid yellow; */
+}
+
+.header__div h1{
+    color: #AAC4FF;
+    font-size: 1.6rem;
+}
+
+.header__div p {
+    margin-bottom: 10px;
+}
+
+.birthday__div h4{
+    color: #AAC4FF;
+    margin-bottom: 5px;
+}
+
+.button__main__div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  .user__main__div {
+    width: 90%;
+  }
+
+  article {
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+  }
+}
